@@ -79,23 +79,21 @@ Experience with Scikit-learn, Seaborn, Pandas, and Matplotlib
 <br>
 Understanding of model training, prediction, and evaluation
 <br>
-🛠️ How to Run
-Clone the repository
-<br>
 Open Data_Science1.ipynb in Jupyter Notebook
 <br>
-Run all cells step by step
-<br>
-bash
-Copy
-Edit
-git clone https://github.com/your-username/iris-flower-classification.git
-cd iris-flower-classification
+
 jupyter notebook Data_Science1.ipynb
 <br>
 👨‍💻 Author
+<br>
+
 Zohaib Sattar
+<br>
 Data Scientist| Data Analyst | Machine Learning Enthusiast
+<br>
 📧 Email: [zabizubi86@gmail.com]
+<br>
 🔗 GitHub: https://github.com/ZohaibSattarDataAI
+<br>
+🔗LinkedIn:https://www.linkedin.com/in/zohaib-sattar-5680ab2a5/
 
