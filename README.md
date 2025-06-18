@@ -78,5 +78,5 @@ Zohaib Sattar
 Data Scientist | Data Analyst | Machine Learning Enthusiast
 
 📧 Email: zabizubi86@gmail.com
-🔗 GitHub: github.com/ZohaibSattarDataAI
-🔗 LinkedIn: linkedin.com/in/zohaib-sattar-5680ab2a5
+🔗 GitHub: https://github.com/ZohaibSattarDataAI
+🔗 LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7340801036640473088/
