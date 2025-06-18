@@ -2,7 +2,7 @@
 <br>
 This project focuses on classifying the species of Iris flowers using machine learning techniques. It is a beginner-friendly data science project that demonstrates the full workflow of building a classification model — from data preprocessing to model evaluation and visualization.
 <br>
-🚀 What This Project Does
+#  What This Project Does
 This notebook performs the following steps:
 <br>
 Loads the Iris Dataset
@@ -39,7 +39,7 @@ Predicts New Samples
 <br>
 Takes new flower measurements and predicts the species.
 <br>
-📁 Dataset Used
+# 📁 Dataset Used
 Dataset: Iris.csv
 <br>
 Features:
@@ -54,7 +54,7 @@ Petal Width (cm)
 <br>
 Target: Species (setosa, versicolor, virginica)
 <br>
-🧠 ML Techniques Used
+# 🧠 ML Techniques Used
 Supervised Learning
 <br>
 Classification (Random Forest)
@@ -65,12 +65,12 @@ Train/Test Split
 <br>
 Model Evaluation Metrics
 <br>
-📊 Output Example
+# 📊 Output Example
 Model Accuracy: ~100% on test set
 <br>
 Predicted Class: Given [6.3, 2.5, 5.0, 1.9], the model returns the predicted iris species.
 <br>
-📚 Learning Outcomes
+# 📚 Learning Outcomes
 <br>
 
 End-to-end implementation of a machine learning pipeline
@@ -84,7 +84,7 @@ Open Data_Science1.ipynb in Jupyter Notebook
 
 jupyter notebook Data_Science1.ipynb
 <br>
-👨‍💻 Author
+# 👨‍💻 Author
 <br>
 
 Zohaib Sattar
