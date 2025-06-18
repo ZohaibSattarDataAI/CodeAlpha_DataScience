@@ -1,2 +1,3 @@
 # CodeAlpha_DataScience
-This is my internship Projects . The Internship offered by the CodeAlpha. This internship is about the Data Science Techniques
+This is my internship project. The Internship offered by CodeAlpha. This internship is about the Data Science Techniques
+Author - Zohaib Sattar
