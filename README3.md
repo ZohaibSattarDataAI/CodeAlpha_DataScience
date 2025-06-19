@@ -1,95 +1,93 @@
-🚗 Car Price Prediction using Machine Learning
-This project aims to predict the selling price of used cars using machine learning techniques. It’s a practical and beginner-friendly regression project that demonstrates the complete data science workflow — from preprocessing and feature engineering to model training, evaluation, and visualization.
+# 🚗 Car Price Prediction using Machine Learning
 
-📌 What This Project Does
-This notebook performs the following key steps:
+This project focuses on predicting the **selling price of used cars** using machine learning techniques. It is a beginner-friendly regression-based data science project that demonstrates the full workflow of building a price prediction model — from data preprocessing to model evaluation and visualization.
 
-Loads the Car Dataset
-Reads the .csv file containing car features such as brand, mileage, fuel type, transmission, etc.
+---
 
-Explores the Data
-Uses visual tools (like pairplot, scatterplots) to understand feature relationships and patterns.
+## 📌 What This Project Does
 
-Preprocesses the Dataset
+This notebook performs the following steps:
 
-Checks for null values
+- **Loads the Car Dataset**  
+  Reads the `.csv` file containing car attributes such as brand, fuel type, kilometers driven, year, and more.
 
-Encodes categorical variables (Fuel_Type, Car_Name, etc.) using LabelEncoder
+- **Explores the Data**  
+  Uses visualizations (like `pairplot` and scatter plots) to analyze relationships between features and the target variable.
 
-Splits Data into Train and Test Sets
-Uses an 80/20 split for training and testing the model using train_test_split.
+- **Preprocesses the Dataset**  
+  - Checks and handles missing values  
+  - Encodes categorical features like `Car_Name`, `Fuel_Type`, `Transmission`, and `Selling_type` using `LabelEncoder`
 
-Trains a Machine Learning Model
-Applies RandomForestRegressor to learn from the features and predict selling prices.
+- **Splits Data into Train and Test Sets**  
+  Uses 80% of the data for training and 20% for testing.
 
-Evaluates the Model
-Calculates R² Score, Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+- **Trains a Machine Learning Model**  
+  Applies a **Random Forest Regressor** to predict the selling price of cars based on input features.
 
-Visualizes Results
+- **Evaluates the Model**  
+  Calculates regression evaluation metrics such as **R² Score**, **MAE**, **MSE**, and **RMSE**.
 
-Actual vs. Predicted Selling Price Scatter Plot
+- **Visualizes Results**  
+  - Plots actual vs. predicted prices  
+  - Adds a perfect prediction reference line  
+  - Visualizes Present Price vs. Selling Price relationship
 
-Selling Price vs. Present Price Analysis
+- **Predicts New Samples**  
+  Uses a custom input array to predict the selling price of a new car.
 
-Red Perfect Prediction Line for performance clarity
+---
 
-Predicts New Samples
-Takes custom input (e.g., car features) and predicts the expected price using the trained model.
+## 📁 Dataset Used
 
-📁 Dataset Used
-Dataset: car data.csv
+- **Dataset**: `car data.csv`
 
-Features:
-Car_Name
+### Features:
+- Car_Name  
+- Year  
+- Present_Price  
+- Kms_Driven  
+- Fuel_Type  
+- Transmission  
+- Selling_type  
+- Owner  
 
-Year
+### Target:
+- **Selling_Price**
 
-Present_Price
+---
 
-Kms_Driven
+## 🧠 ML Techniques Used
 
-Fuel_Type
+- Supervised Learning  
+- Regression (**Random Forest Regressor**)  
+- Label Encoding  
+- Train/Test Split  
+- Model Evaluation Metrics (R², MAE, MSE, RMSE)
 
-Transmission
+---
 
-Selling_type
+## 📊 Output Example
 
-Owner
+- **Model R² Score (Test Set)**: ~88–95%  
+- **Predicted Price**: Given `[69, 2017, 12.50, 9000, 1, 0, 1, 0]`, the model predicts the car's selling price accurately.
 
-Target:
-Selling_Price
+---
 
-🧠 ML Techniques Used
-Supervised Learning
+## 📚 Learning Outcomes
 
-Regression (Random Forest Regressor)
+- Complete implementation of a machine learning pipeline for regression tasks  
+- Hands-on experience with **Scikit-learn**, **Seaborn**, **Pandas**, and **Matplotlib**  
+- Understanding of real-world machine learning applications for price prediction  
+- Exposure to encoding, training, testing, evaluating, and visualizing ML models  
 
-Label Encoding
+---
 
-Train/Test Split
+## 👨‍💻 Author
 
-Model Evaluation Metrics (MAE, MSE, RMSE, R²)
+**Zohaib Sattar**  
+Data Scientist | Data Analyst | Machine Learning Enthusiast  
 
-📊 Output Example
-Model R² Score (Test Set): ~88–95% depending on random state
-
-Predicted Price: For custom input [69, 2017, 12.50, 9000, 1, 0, 1, 0], the model returns the predicted selling price.
-
-📚 Learning Outcomes
-Full understanding of a regression-based ML pipeline
-
-Real-world application of machine learning in price prediction
-
-Hands-on with Scikit-learn, Seaborn, Pandas, and Matplotlib
-
-Experience with data visualization, feature encoding, and performance evaluation
-
-👨‍💻 Author
-Zohaib Sattar
-Data Scientist | Data Analyst | Machine Learning Enthusiast
-
-📧 Email: zabizubi86@gmail.com
-🔗 GitHub: github.com/ZohaibSattarDataAI
-🔗 LinkedIn: LinkedIn Profile
-
+📧 Email: [zabizubi86@gmail.com]
+🔗 GitHub: (https://github.com/ZohaibSattarDataAI)  
+🔗 LinkedIn:(https://www.linkedin.com/in/zohaib-sattar-5680ab2a5/)
 
